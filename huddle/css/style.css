@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:" open sans";
+    
+}
+body{
+    width: 100%;
+    min-height:100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;  
+    background:#674bb1 ;
+    background-image: url(/img/bg-desktop.svg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.main .coniener{
+    width: 95%;
+    height: 100%;
+    margin: 0% auto;
+}
+.main .coniener .logo{
+    width: 155px;
+    margin-top: 41px;
+    margin-left: 100px;
+}
+.main .coniener .pannel img{
+    width:  600px;
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-right: 100px;
+   
+}
+.main .coniener .pannel .title{
+float: right;
+margin-top:140px ;
+margin-right: 160px;
+   
+}
+.main .coniener .pannel .title h3{
+font-family: Poppins ;
+font-size: 2rem;
+color: white;
+line-height: 1.3;
+margin-bottom: 20px;
+   
+}
+.main .coniener .pannel .title p{
+     
+    color: white;
+    line-height: 1.5;
+
+   
+}
+.main .coniener .pannel .title button{
+    width: 200px;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #674bb1;
+    transition:  1s all;
+}
+.main .coniener .pannel .title button:hover{
+    color: white;
+    background-color: #71629d;
+    box-shadow:  0px 0px 0px 0px rgba(0, 0, 3px,0.1);
+     
+ 
+}
+.main .coniener ul{
+    text-align: end;
+}
+.main .coniener ul li{
+    display: inline;
+    margin: 50px 20px;
+    
+    
+
+}
+.main .coniener ul li a{
+    font-size:2rem;
+    color: white;
+    transition: 1s all;
+    
+    
+}
+.main .coniener  ul li a:hover{
+    color: #71629d;
+    box-shadow:  0px 0px 0px 0px rgba(0, 0, 3px,0.1);
+     
+ 
+}
